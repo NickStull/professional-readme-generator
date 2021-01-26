@@ -1,4 +1,5 @@
 const inquirer = require('inquirer');
+const generateMarkdown = require('generateMarkdown');
 
 inquirer
     .prompt([
@@ -53,7 +54,7 @@ inquirer
     ])
     .then(response =>
         {
-            console.log(response);
+            console.log(generateMarkdown(response));
         
         });
 
