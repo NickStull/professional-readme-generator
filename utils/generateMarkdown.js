@@ -92,7 +92,7 @@ ${link}
 
 If you have any questions about this repo, or if you would like to contribute to this project, you can contact me directly at ${data.email}.
 
-You can also find more of my work at [${data.username}](https://github.com/${data.username}/)!
+You can also find more of my work at [GitHub](https://github.com/${data.username}/)!
 
 `;
 };

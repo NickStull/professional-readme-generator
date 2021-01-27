@@ -1,11 +1,11 @@
 
-# ReadMe Generator
+# qwergqwerg
 
 [![License: WTFPL](https://img.shields.io/badge/License-WTFPL-brightgreen.svg)](http://www.wtfpl.net/about/)
 
 ## Description
 
-This application generates a ReadMe
+qwergqwgr
 
 ## Table of Contents
 
@@ -26,16 +26,16 @@ This application generates a ReadMe
 To install the necessary dependencies, run the following command(s):
 
 ```
-npm i
+qerqerg
 ```
 
 ## Usage
 
-Use wisely
+qergqaegrw
 
 ## Contributing
 
-contribut carefully
+qergqerg
 
 ## Tests
 
@@ -52,7 +52,7 @@ http://www.wtfpl.net/about/
 
 ## Questions
 
-If you have any questions about this repo, or if you would like to contribute to this project, you can contact me directly at stull.nicholas@gmail.com.
+If you have any questions about this repo, or if you would like to contribute to this project, you can contact me directly at qewrgqewrg.
 
-You can also find more of my work at [nickstull](https://github.com/nickstull/)!
+You can also find more of my work at [GitHub](https://github.com/ergqerg/)!
 
