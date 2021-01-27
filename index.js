@@ -1,3 +1,4 @@
+const fs = require('fs');
 const inquirer = require('inquirer');
 const generateMarkdown = require('./utils/generateMarkdown');
 
@@ -26,7 +27,7 @@ inquirer
         {
             type: 'list',
             message: 'Choose a license ("none" if not applicable):',
-            choices: ['MIT', 'APACHE 2.0', 'GPL 3.0', 'BSD', 'None'],
+            choices: ['MIT', 'BSD 3', 'The Unlicense', 'WTFPL', 'None'],
             name: 'license',
         },
         {
@@ -54,9 +55,13 @@ inquirer
     ])
     .then(response =>
         {
-            console.log(generateMarkdown(response));
+            // console.log(generateMarkdown(response));
+            let data = generateMarkdown(response);
+            writeToFile("ReadMe.md", data);
         
         });
 
-
+const writeToFile = (fileName, data) => {
+    fs.writeFile(fileName, data, err => err ? console.error(err) : console.log("Generating ReadMe..."));
+}
     
